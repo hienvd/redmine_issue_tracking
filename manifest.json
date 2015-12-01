@@ -6,6 +6,7 @@
   "browser_action": {
     "default_icon": "gmail_not_logged_in.png"
   },
+  "options_page":"options.html",
   "description": "Redmine Issues Tracker",
   "name": "Redmine Issues Tracker",
   "permissions": [
