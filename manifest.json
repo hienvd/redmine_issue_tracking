@@ -10,9 +10,8 @@
   "description": "Redmine Issues Tracker",
   "name": "Redmine Issues Tracker",
   "permissions": [
-    "alarms",
     "tabs",
-    "webNavigation"
+    "https://redmine.elarion.com/"
     ],
   "version": "1.0",
   "manifest_version": 2

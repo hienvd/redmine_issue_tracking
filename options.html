@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Redmine Issues</title>
+  <script src="background.js"></script>
 </head>
 <body>
   <h1> Redmine Issues Tracker: Track your assigned issues easier </h1>
@@ -10,7 +11,8 @@
   	  <legend>Authentication:</legend>
 	  	  URL: <input type="text" placeholder="http://abc.redmine.com"><br>
 	  	  Username: <input type="text"><br>
-	  	  Password: <input type="text">
+        Password: <input type="text"><br>
+        <button onclick="getRedmineUrl()"> Log In </button>
 	</fieldset>
 
 	<fieldset>
